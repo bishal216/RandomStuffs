@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[nodayofweek]{datetime}
+\usepackage{tabularx}
+\usepackage[small]{titlesec}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \huge{\bfseries  Tribhuvan University}\\
+        \Large{Institute of Engineering}\\
+        \huge{ \bfseries  Pulchowk Campus}\\[3.2cm]
+
+
+        \textsc{\Large Internet and Intranet}\\[-0.5cm]
+        \line(1,0){400}\\
+        \huge{\bfseries Lab 4}\\
+        \large{Adaptive Load Balancing}
+        \line(1,0){400}\\
+
+
+        \textsc{\Large Submitted by:}\\
+        \Large Bishal Katuwal\\ \large 075BCT028\\    [0.85cm]
+
+        \textsc{\Large Submitted to:}\\\
+        \large Department of Electronics and Computer Engineering\\Pulchowk Campus\\    [0.85cm]
+        
+        \textsc{\Large Submitted on:}\\
+        \today
+        
+    \end{center}
+\end{titlepage}
+\pagebreak
+% ===============================================================
+\paragraph{\Large Title\\}
+Adaptive Load Balancing
+
+\paragraph{Background Theory\\}
+Load balancing is the process of distributing incoming traffic across multiple devices based on various factors, such as the number of connections, the processing load on each resource, or the response time of each resource.
+It is done to optimize resource utilization, minimize response time, and avoid overloading any single resource.
+
+Adaptive load balancing is a method of load balancing used to 
+to optimize resource utilization and maximize the processing of incoming requests. 
+The goal of adaptive load balancing is to dynamically adjust to changes in traffic patterns and server utilization, allowing the system to respond quickly and efficiently to changing conditions. 
+
+\paragraph{Activity}
+The following activity depicts simulation of adaptive load balancing in a system with 5 servers and 50 requests.
+\begin{verbatim}
+import random
+
+# Defines a server  with its unique ID
+class Server:
+    def __init__(self, id):
+        self.id = id
+        self.utilization = 0       
+    def __str__(self):
+        return('Server'+str(self.id)+ ' = ' +str(self.utilization))
+    def __repr__(self):
+        return str(self)
+
+# Load Balancing Algorithm
+class LoadBalancer:
+    def __init__(self, resources):
+        self.resources = resources
+    def allocate_request(self, request):
+        resource = min(self.resources, key=lambda x: x.utilization)
+        resource.utilization += request
+        return resource.id
+    def release_request(self, request, resource_id):
+        resource = next(r for r in self.resources if r.id == resource_id)
+        resource.utilization -= request
+          
+if __name__ == "__main__":
+    # Generate 5 servers
+    servers = [Server(i) for i in range(5)]
+    AptLoadBal = LoadBalancer(servers)
+
+    # Generate requests
+    requests = [random.randint(1, 10) for i in range(50)]
+
+    # Allocate requests to resources
+    resource_ids = [AptLoadBal.allocate_request(r) for r in requests]
+
+    # Release requests from resources
+    for i, r in enumerate(requests):
+        AptLoadBal.release_request(r, resource_ids[i])
+        print(servers)
+\end{verbatim}
+
+\paragraph{Conclusion\\}
+In this report, we have discussed the basic steps for adaptive load balancing in network system. 
+The process of adaptive load balancing involves finding the server with lowest utilization 
+and allocating the request to that node.
+
+\paragraph{Appendix\\}
+Roll No. 28 \\
+Topic = (Roll No \% 8) + 1 \\ = (28\%8)+1 \\ =5th topic
+\end{document}
