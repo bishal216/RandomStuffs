@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.2)  6 MAR 2023 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.2)  7 MAR 2023 20:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,89 +314,221 @@ LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
 LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
-)) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box55
+\extrarowheight=\dimen177
+\NC@list=\toks23
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box56
+)
+\TX@col@width=\dimen178
+\TX@old@table=\dimen179
+\TX@old@col=\dimen180
+\TX@target=\dimen181
+\TX@delta=\dimen182
+\TX@cols=\count282
+\TX@ftn=\toks24
+) (c:/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip56
+\bibsep=\skip57
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count283
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box57
 ) (./Lab1.aux)
 \openout1 = `Lab1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 -- Lines per column: 61 (exact).
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen176
-\scratchbox=\box56
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen177
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count285
+\scratchdimen=\dimen183
+\scratchbox=\box58
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen184
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks26
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 24.
-LaTeX Info: Command `\ddddot' is already robust on input line 24.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 25.
+LaTeX Info: Command `\dddot' is already robust on input line 30.
+LaTeX Info: Command `\ddddot' is already robust on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 31.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 25.
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 25.
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 25.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 31.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 31.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 45.
  [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<images/circuit.PNG, id=17, 489.62926pt x 187.902pt>
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 95.
+<images/Exp1_Example1.png, id=17, 363.3575pt x 248.93pt>
+File: images/Exp1_Example1.png Graphic file (type png)
+<use images/Exp1_Example1.png>
+Package pdftex.def Info: images/Exp1_Example1.png  used on input line 102.
+(pdftex.def)             Requested size: 181.6783pt x 124.46469pt.
+<images/Exp1_Example2.png, id=19, 369.38pt x 248.93pt>
+File: images/Exp1_Example2.png Graphic file (type png)
+<use images/Exp1_Example2.png>
+Package pdftex.def Info: images/Exp1_Example2.png  used on input line 114.
+(pdftex.def)             Requested size: 184.68954pt x 124.46469pt.
+<images/Exp1_Example3.png, id=20, 369.38pt x 248.93pt>
+File: images/Exp1_Example3.png Graphic file (type png)
+<use images/Exp1_Example3.png>
+Package pdftex.def Info: images/Exp1_Example3.png  used on input line 126.
+(pdftex.def)             Requested size: 184.68954pt x 124.46469pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/circuit.PNG, id=21, 489.62926pt x 187.902pt>
 File: images/circuit.PNG Graphic file (type png)
 <use images/circuit.PNG>
-Package pdftex.def Info: images/circuit.PNG  used on input line 104.
+Package pdftex.def Info: images/circuit.PNG  used on input line 149.
 (pdftex.def)             Requested size: 244.81403pt x 93.95076pt.
+[2 <./images/Exp1_Example1.png> <./images/Exp1_Example2.png> <./images/Exp1_Example3.png> <./images/circuit.PNG>]
+<images/Exp2_Example1_V1.png, id=31, 377.41pt x 262.9825pt>
+File: images/Exp2_Example1_V1.png Graphic file (type png)
+<use images/Exp2_Example1_V1.png>
+Package pdftex.def Info: images/Exp2_Example1_V1.png  used on input line 226.
+(pdftex.def)             Requested size: 166.06091pt x 115.71265pt.
+<images/Exp2_Example1_V2.png, id=32, 390.45876pt x 262.9825pt>
+File: images/Exp2_Example1_V2.png Graphic file (type png)
+<use images/Exp2_Example1_V2.png>
+Package pdftex.def Info: images/Exp2_Example1_V2.png  used on input line 231.
+(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
 
-Underfull \hbox (badness 1565) in paragraph at lines 160--160
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Exp2_Example2_V1.png, id=33, 385.44pt x 262.9825pt>
+File: images/Exp2_Example2_V1.png Graphic file (type png)
+<use images/Exp2_Example2_V1.png>
+Package pdftex.def Info: images/Exp2_Example2_V1.png  used on input line 240.
+(pdftex.def)             Requested size: 169.59412pt x 115.71265pt.
+<images/Exp2_Example2_V2.png, id=34, 398.48875pt x 262.9825pt>
+File: images/Exp2_Example2_V2.png Graphic file (type png)
+<use images/Exp2_Example2_V2.png>
+Package pdftex.def Info: images/Exp2_Example2_V2.png  used on input line 246.
+(pdftex.def)             Requested size: 199.24388pt x 131.49092pt.
+[3 <./images/Exp2_Example1_V1.png> <./images/Exp2_Example1_V2.png> <./images/Exp2_Example2_V1.png> <./images/Exp2_Example2_V2.png>]
+Underfull \hbox (badness 1565) in paragraph at lines 256--256
  \OT1/phv/b/sc/11.04124 4 Ex-per-i-ment 3 : Gen-er-a-tion of ran-dom
  []
 
-<images/spring-mass.PNG, id=19, 377.0085pt x 144.54pt>
-File: images/spring-mass.PNG Graphic file (type png)
-<use images/spring-mass.PNG>
-Package pdftex.def Info: images/spring-mass.PNG  used on input line 206.
-(pdftex.def)             Requested size: 263.90414pt x 101.17729pt.
+<images/Exp3_Example1.png, id=42, 390.45876pt x 262.9825pt>
+File: images/Exp3_Example1.png Graphic file (type png)
+<use images/Exp3_Example1.png>
+Package pdftex.def Info: images/Exp3_Example1.png  used on input line 310.
+(pdftex.def)             Requested size: 253.79518pt x 170.93658pt.
 
-Overfull \hbox (10.95915pt too wide) in paragraph at lines 206--207
+Overfull \hbox (0.85019pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
-<images/sping_mass_freebody.PNG, id=20, 245.11575pt x 65.64525pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Exp3_Example2.png, id=43, 390.45876pt x 262.9825pt>
+File: images/Exp3_Example2.png Graphic file (type png)
+<use images/Exp3_Example2.png>
+Package pdftex.def Info: images/Exp3_Example2.png  used on input line 323.
+(pdftex.def)             Requested size: 253.79518pt x 170.93658pt.
+
+Overfull \hbox (0.85019pt too wide) in paragraph at lines 323--324
+ [][] 
+ []
+
+<images/Exp3_Example3.png, id=44, 390.45876pt x 262.9825pt>
+File: images/Exp3_Example3.png Graphic file (type png)
+<use images/Exp3_Example3.png>
+Package pdftex.def Info: images/Exp3_Example3.png  used on input line 336.
+(pdftex.def)             Requested size: 253.79518pt x 170.93658pt.
+
+Overfull \hbox (0.85019pt too wide) in paragraph at lines 336--337
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./images/Exp3_Example1.png> <./images/Exp3_Example2.png>]
+<images/spring-mass.PNG, id=51, 377.0085pt x 144.54pt>
+File: images/spring-mass.PNG Graphic file (type png)
+<use images/spring-mass.PNG>
+Package pdftex.def Info: images/spring-mass.PNG  used on input line 360.
+(pdftex.def)             Requested size: 263.90414pt x 101.17729pt.
+
+Overfull \hbox (10.95915pt too wide) in paragraph at lines 360--361
+ [][] 
+ []
+
+<images/sping_mass_freebody.PNG, id=52, 245.11575pt x 65.64525pt>
 File: images/sping_mass_freebody.PNG Graphic file (type png)
 <use images/sping_mass_freebody.PNG>
-Package pdftex.def Info: images/sping_mass_freebody.PNG  used on input line 212.
+Package pdftex.def Info: images/sping_mass_freebody.PNG  used on input line 366.
 (pdftex.def)             Requested size: 245.11514pt x 65.64507pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -404,27 +536,87 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./images/circuit.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 268--275
+<images/Exp4.png, id=53, 387.4475pt x 266.9975pt>
+File: images/Exp4.png Graphic file (type png)
+<use images/Exp4.png>
+Package pdftex.def Info: images/Exp4.png  used on input line 404.
+(pdftex.def)             Requested size: 193.72327pt x 133.49841pt.
+[5 <./images/Exp3_Example3.png> <./images/spring-mass.PNG> <./images/sping_mass_freebody.PNG> <./images/Exp4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 448--455
 
  []
 
-[3 <./images/spring-mass.PNG> <./images/sping_mass_freebody.PNG>] [4
+<images/Exp5_Example1.png, id=61, 398.48875pt x 248.93pt>
+File: images/Exp5_Example1.png Graphic file (type png)
+<use images/Exp5_Example1.png>
+Package pdftex.def Info: images/Exp5_Example1.png  used on input line 478.
+(pdftex.def)             Requested size: 199.24388pt x 124.46469pt.
+<images/Exp5_Example2.png, id=62, 398.48875pt x 248.93pt>
+File: images/Exp5_Example2.png Graphic file (type png)
+<use images/Exp5_Example2.png>
+Package pdftex.def Info: images/Exp5_Example2.png  used on input line 484.
+(pdftex.def)             Requested size: 199.24388pt x 124.46469pt.
 
-] (./Lab1.aux) ) 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/Exp5_Example1.png>]
+Underfull \hbox (badness 2111) in paragraph at lines 505--508
+\OT1/ppl/m/n/9.53561 The au-thors would like to thank Prof. Dr. Sub-arna
+ []
+
+(./Lab1.bbl)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 516.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [7 <./images/Exp5_Example2.png>]
+Overfull \hbox (4.51617pt too wide) in paragraph at lines 613--613
+[]  \OT1/pcr/m/n/9.53561 m22=func2(v10+h/2,v20+m21*h/2,a21,a22,ein);[] 
+ []
+
+
+Overfull \hbox (4.51617pt too wide) in paragraph at lines 613--613
+[]  \OT1/pcr/m/n/9.53561 m23=func2(v10+h/2,v20+m22*h/2,a21,a22,ein);[] 
+ []
+
+[8]
+Overfull \hbox (1.6397pt too wide) in paragraph at lines 748--748
+[]|\OT1/ppl/b/n/8.03 df/$\OML/cmm/m/it/8 $|  
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 807--807
+\OT1/phv/b/sc/11.04124 MATLAB Code for Sim-la-tion of na-tional
+ []
+
+[9]
+Overfull \hbox (15.9589pt too wide) in paragraph at lines 837--837
+[]\OT1/pcr/m/n/9.53561 h=legend('National Income(Y)','Consumption(C)',[] 
+ []
+
+
+Overfull \hbox (4.51617pt too wide) in paragraph at lines 837--837
+[]\OT1/pcr/m/n/9.53561 'Investment(I)','Taxes(T)','Expenditure(G)');[] 
+ []
+
+
+Overfull \hbox (4.51617pt too wide) in paragraph at lines 867--867
+[]    \OT1/pcr/m/n/9.53561 G.append(((G[i-1]*2+1000) % 10000)+30000)[] 
+ []
+
+[10] (./Lab1.aux) ) 
 Here is how much of TeX's memory you used:
- 4073 strings out of 476093
- 62571 string characters out of 5795584
- 1866787 words of memory out of 5000000
- 24426 multiletter control sequences out of 15000+600000
- 556353 words of font info for 129 fonts, out of 8000000 for 9000
+ 5322 strings out of 476093
+ 84491 string characters out of 5795584
+ 1878787 words of memory out of 5000000
+ 25606 multiletter control sequences out of 15000+600000
+ 561230 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,62p,1273b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Lab1.pdf (4 pages, 169307 bytes).
+ 60i,11n,67p,1273b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Lab1.pdf (10 pages, 440903 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
