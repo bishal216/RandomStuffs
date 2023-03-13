@@ -1,0 +1,18 @@
+1. What is an information system? Explain the different types of information system that support business operations and managerial decision making.
+2. Why do we need to Secure information System? What is Layered Security and its types? 
+3. What are the stages of design and development of an organization information system? 
+4, What are the major challenges within  Strategic IS implementation?
+5. What are the auditing techniques for information system? What is SQL injection Attack? 
+6. Explain the Enterprise Resource Planning. Supply Chain Management (SCM) is a top strategic objective for many organizations, explain it. 
+7. What do you mean by Critical Success Factors (CSF)? Why change management is crucial for any modern organization? 
+8. What is Enterprises Engineering? Why do an think that we have to use Enterprise Engineering in organization?  
+9. What is Data Mining? Explain the relationship between OLAP and OLTP with figure. 
+10. What do you mean by cold start problem in collaborative filtering? Explain with example. 
+11. Define the cloud computing and how is it important in MIS? Illustrate types of cloud technology. 
+12. Write short notes on: 
+a) Balanced Scorecard 
+b) Big-Data processing with Map Reduce 
+c) Security Triad 
+d) Collective intelligence through social-network 
+e) Knowledge Management System 
+f) Hadoop System 

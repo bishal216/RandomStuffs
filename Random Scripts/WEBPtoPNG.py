@@ -9,4 +9,4 @@ def convert_all_webp_to_png(folder_path):
             with Image.open(webp_path) as im:
                 im.save(png_path, 'png')
             os.remove(webp_path)    
-convert_all_webp_to_png('BigData\\images')
+convert_all_webp_to_png('IandI\\images')
