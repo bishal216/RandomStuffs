@@ -3,14 +3,15 @@ from pymongo import MongoClient
 from elasticsearch import Elasticsearch
 
 # Set up MongoDB client
-connection_string = 'mongodb+srv://Bellatrix:Hello123@bookdb.ynryira.mongodb.net/?retryWrites=true&w=majority'
+
+connection_string = 'STRING HERE'
 mongo_client = MongoClient(connection_string)
 mongo_db = mongo_client['sample_restaurants']
 mongo_collection = mongo_db['restaurants']
 
 # # Set up Elasticsearch client
 es_client = Elasticsearch(hosts=[{'host':'localhost','port':9200,'scheme':'https'}],
-                           basic_auth= ('elastic','7azPaAh4Jn-9=0q6Nsnt'),
+                           basic_auth= ('USERNAME','PASSWORD'),
                            verify_certs=False)
 index_name = "restaurant"
 
