@@ -1,0 +1,54 @@
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Search Results</title>
+  </head>
+  <body>
+    <h1>Search Results for "{{ query }}"</h1>
+    {% if results %}
+      <ul>
+        {% for product in results %}
+          <li>
+            <h2>{{ product.name }}</h2>
+            <p>{{ product.borough }}</p>
+            <p>Category: {{ product.address }}</p>
+            <p>Price: {{ product.cuisine }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No results found.</p>
+    {% endif %}
+  </body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Search Results for "{{ query }}"</h1>
+    </header>
+    <main class="main">
+      {% if results %}
+      <ul class="results-list">
+        {% for product in results %}
+        <li class="results-list__item">
+          <h2 class="results-list__name">{{ product.name }}</h2>
+          <p class="results-list__borough">{{ product.borough }}</p>
+          <p class="results-list__address">Category: {{ product.address }}</p>
+          <p class="results-list__cuisine">Price: {{ product.cuisine }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="no-results-message">No results found.</p>
+      {% endif %}
+    </main>
+  </body>
+</html>

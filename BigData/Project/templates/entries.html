@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My MongoDB Entries</title>
+</head>
+<body>
+    <h1>My MongoDB Entries</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Borough</th>
+                <th>Address</th>
+                <th>Cuisine</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in entries %}
+            <tr>
+                <td>{{ entry.name }}</td>
+                <td>{{entry.borough}}</td>
+                <td>{{ entry.address.building }}, {{ entry.address.street }}, {{ entry.address.zipcode }}</td>
+                <td>{{ entry.cuisine }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

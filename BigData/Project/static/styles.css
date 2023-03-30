@@ -1,0 +1,68 @@
+/* Common styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #f2f2f2;
+    padding: 1rem;
+  }
+  
+  .header__title {
+    margin: 0;
+  }
+  
+  .main {
+    margin: 1rem;
+  }
+  
+  /* Index page specific styles */
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  .search-form__label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .search-form__input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .search-form__submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  /* Search results page specific styles */
+  .results-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .results-list__item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .results-list__name {
+    margin: 0;
+  }
+  
+  .no-results-message {
+    font-style: italic;
+    text-align: center;
+  }
